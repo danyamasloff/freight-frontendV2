@@ -18,6 +18,7 @@ import {
 	Fuel,
 	Home,
 	LogOut,
+	Map,
 	Menu,
 	Navigation,
 	Settings,
@@ -48,6 +49,7 @@ const navigationGroups = [
 		items: [
 			{ icon: Box, label: "Грузы", href: "/dashboard/cargo" },
 			{ icon: Navigation, label: "Маршруты", href: "/dashboard/routing" },
+			{ icon: Map, label: "Маршрутная карта", href: "/route-map" },
 			{ icon: Cloud, label: "Погода", href: "/dashboard/weather" }
 		]
 	},
@@ -191,9 +193,9 @@ export function DashboardLayout({ children }: { children: React.ReactNode }) {
 }
 
 function DashboardSidebar({
-	currentPath,
-	onNavigation
-}: {
+							  currentPath,
+							  onNavigation
+						  }: {
 	currentPath: string
 	onNavigation?: () => void
 }) {
@@ -211,7 +213,7 @@ function DashboardSidebar({
 			}
 		})
 		setExpandedGroups(newExpandedGroups)
-	// eslint-disable-next-line react-hooks/exhaustive-deps
+		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [currentPath])
 
 	const toggleGroup = (groupName: string) => {

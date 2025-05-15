@@ -17,6 +17,7 @@
         "@radix-ui/react-tabs": "^1.1.11",
         "@radix-ui/react-tooltip": "^1.2.6",
         "@tailwindcss/vite": "^4.1.6",
+        "@yandex/ymaps3-types": "^1.0.16530300",
         "class-variance-authority": "^0.7.1",
         "clsx": "^2.1.1",
         "date-fns": "^4.1.0",
@@ -362,6 +363,8 @@
     "@typescript-eslint/visitor-keys": ["@typescript-eslint/visitor-keys@8.32.1", "", { "dependencies": { "@typescript-eslint/types": "8.32.1", "eslint-visitor-keys": "^4.2.0" } }, "sha512-ar0tjQfObzhSaW3C3QNmTc5ofj0hDoNQ5XWrCy6zDyabdr0TWhCkClp+rywGNj/odAFBVzzJrK4tEq5M4Hmu4w=="],
 
     "@vitejs/plugin-react-swc": ["@vitejs/plugin-react-swc@3.9.0", "", { "dependencies": { "@swc/core": "^1.11.21" }, "peerDependencies": { "vite": "^4 || ^5 || ^6" } }, "sha512-jYFUSXhwMCYsh/aQTgSGLIN3Foz5wMbH9ahb0Zva//UzwZYbMiZd7oT3AU9jHT9DLswYDswsRwPU9jVF3yA48Q=="],
+
+    "@yandex/ymaps3-types": ["@yandex/ymaps3-types@1.0.16530300", "", { "peerDependencies": { "@types/react": "16-18", "@types/react-dom": "16-18", "@vue/runtime-core": "3" }, "optionalPeers": ["@types/react", "@types/react-dom", "@vue/runtime-core"] }, "sha512-cftV6Y6jbY6oXUSkGWDJDNLQgsA+SdQCW758snHisS48P/xUFjSJEGjLdOKr4fs9X48SX2mKkbqLIl/56nKfJA=="],
 
     "accepts": ["accepts@2.0.0", "", { "dependencies": { "mime-types": "^3.0.0", "negotiator": "^1.0.0" } }, "sha512-5cvg6CtKwfgdmVqY1WIiXKc3Q1bkRqGLi+2W/6ao+6Y7gu/RCwRuAhGEzh5B4KlszSuTLgZYuqFqo5bImjNKng=="],
 
